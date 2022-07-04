@@ -1,0 +1,31 @@
+.row{
+    padding: 50px;
+}
+
+div{
+    background-color: rgb(181, 255, 203);
+}
+
+h1,h6{
+    color: rgb(92, 81, 102);
+    text-align: center;
+}
+
+@media (min-width: 576px){
+    #fotoperfil{
+        position:absolute;
+        width: 15%;
+        border-radius: 100%;
+    }
+}
+
+@media (max-width: 575px){
+    #fotoperfil{
+        position:absolute;
+        width: 17%;
+        left: 40%;
+        border-radius: 100%;
+        top: 400px;
+    }
+}
+
